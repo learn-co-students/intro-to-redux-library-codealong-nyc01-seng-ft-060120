@@ -10,6 +10,7 @@ export default function shoppingListItemReducer(
 				...state,
 				items: state.items.concat(state.items.length + 1)
 			}
+
 		default:
 			return state;
 	}
